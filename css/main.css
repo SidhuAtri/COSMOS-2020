@@ -1,0 +1,102 @@
+body {
+  font-family: "Arvo", serif;
+}
+
+#logo {
+  height: 40px;
+  width: auto;
+}
+
+/* banner */
+.hero-bg {
+  background: url(../img/hero1.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  /* opacity: 0.9; */
+}
+.border-title {
+  border-top: 8px solid white;
+  border-bottom: 8px solid white;
+  display: inline-block;
+}
+
+.bg-subtitle {
+  color: black;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  display: block;
+  margin: 5px auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  img {
+    height: 300px;
+  }
+
+  .hero-bg {
+    height: 100vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  img {
+    height: 350px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  img {
+    height: 350px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  img {
+    height: 400px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  img {
+    height: 450px;
+  }
+
+  .hero-bg {
+    height: 100vh;
+  }
+}
+
+/* banner end */
+
+.title-underline {
+  width: 200px;
+  height: 10px;
+  margin: 0 auto;
+  /* background: blue!important; */
+}
+
+.height-80 {
+  min-height: 80vh;
+}
+
+.about-picture {
+  background: url(../img/background.jpg) center/cover no-repeat fixed;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+#filler,
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url(../img/projects-1.jpeg) center/cover no-repeat fixed;
+}
